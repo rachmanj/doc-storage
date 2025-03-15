@@ -1,6 +1,6 @@
 # Document Storage API
 
-A Laravel 11 application for storing and managing documents (images, PDFs, Excel, Word files) for the Invoice Application.
+A Laravel 10 application for storing and managing documents (images, PDFs, Excel, Word files) for the Invoice Application.
 
 ## Features
 
@@ -13,12 +13,39 @@ A Laravel 11 application for storing and managing documents (images, PDFs, Excel
 
 ## Requirements
 
--   PHP 8.2+
+-   PHP 8.1+
 -   Composer
--   Laravel 11
+-   Laravel 10
 -   SQLite (or any other database supported by Laravel)
 
 ## Installation
+
+> **Note:** This application has been modified to work with PHP 8.1 by downgrading from Laravel 11 to Laravel 10.
+
+### Quick Installation
+
+For a quick installation, you can use the provided installation scripts:
+
+**Linux/Mac:**
+
+```bash
+git clone <repository-url>
+cd doc-storage
+chmod +x install.sh
+./install.sh
+```
+
+**Windows:**
+
+```bash
+git clone <repository-url>
+cd doc-storage
+install.bat
+```
+
+### Manual Installation
+
+If you prefer to install manually, follow these steps:
 
 1. Clone the repository:
 
